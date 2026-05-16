@@ -1,0 +1,360 @@
+<mxfile host="app.diagrams.net" modified="2025-01-01T00:00:00.000Z" agent="5.0" etag="drawio" version="22.1.0" type="device">
+  <diagram name="1. Чётность с повтором" id="1">
+    <mxGraphModel dx="827" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="360" y="20" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="3" value="Ввод числа" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="350" y="80" width="100" height="60" as="geometry"/></mxCell>
+        <mxCell id="4" value="Попытка int" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="340" y="160" width="120" height="40" as="geometry"/></mxCell>
+        <mxCell id="5" value="Успех?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="350" y="230" width="100" height="60" as="geometry"/></mxCell>
+        <mxCell id="6" value="Чётное?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="350" y="320" width="100" height="60" as="geometry"/></mxCell>
+        <mxCell id="7" value="Вывод 'Чётное'" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="340" y="410" width="120" height="40" as="geometry"/></mxCell>
+        <mxCell id="8" value="Вывод 'Нечётное'" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="340" y="480" width="120" height="40" as="geometry"/></mxCell>
+        <mxCell id="9" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="360" y="550" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="10" value="Ошибка" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="520" y="240" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="2" target="3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="3" target="4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="4" target="5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="5" target="6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="5" target="10"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="10" target="3"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="570" y="110"/></Array></mxGeometry></mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="6" target="7"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="6" target="8"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="7" target="9"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="8" target="9"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="2. Сумма или разность" id="2">
+    <mxGraphModel dx="827" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="360" y="20" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="3" value="Ввод A, B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="340" y="90" width="120" height="40" as="geometry"/></mxCell>
+        <mxCell id="4" value="A &lt; B ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="350" y="160" width="100" height="60" as="geometry"/></mxCell>
+        <mxCell id="5" value="A + B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="220" y="260" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="6" value="A - B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="500" y="260" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="7" value="Вывод" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="360" y="340" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="8" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="360" y="420" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="2" target="3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="3" target="4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="4" target="5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="4" target="6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="5" target="7"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="6" target="7"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="7" target="8"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="3. 16 степеней 2" id="3">
+    <mxGraphModel dx="827" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="360" y="20" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="3" value="i = 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="360" y="90" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="4" value="i &lt;= 16 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="350" y="160" width="100" height="60" as="geometry"/></mxCell>
+        <mxCell id="5" value="Вывод 2^i" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="340" y="260" width="120" height="40" as="geometry"/></mxCell>
+        <mxCell id="6" value="i = i+1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="360" y="340" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="7" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="360" y="440" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="2" target="3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="3" target="4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="4" target="5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="5" target="6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="6" target="4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="4" target="7"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="4. Подсчёт чётных" id="4">
+    <mxGraphModel dx="827" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="360" y="20" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="3" value="count=0, i=1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="340" y="90" width="120" height="40" as="geometry"/></mxCell>
+        <mxCell id="4" value="i &lt;= 10 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="350" y="160" width="100" height="60" as="geometry"/></mxCell>
+        <mxCell id="5" value="Ввод num" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="340" y="250" width="120" height="40" as="geometry"/></mxCell>
+        <mxCell id="6" value="num чётное?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="340" y="320" width="120" height="60" as="geometry"/></mxCell>
+        <mxCell id="7" value="count++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="500" y="330" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="8" value="i++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="360" y="430" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="9" value="Вывод count" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="340" y="520" width="120" height="40" as="geometry"/></mxCell>
+        <mxCell id="10" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="360" y="600" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="2" target="3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="3" target="4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="4" target="5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="5" target="6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="6" target="7"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="6" target="8"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="7" target="8"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="8" target="4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="4" target="9"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="9" target="10"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="5. Положительные, отрицательные, нули" id="5">
+    <mxGraphModel dx="827" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="360" y="20" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="3" value="pos=0, neg=0, zero=0, i=1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="310" y="90" width="180" height="40" as="geometry"/></mxCell>
+        <mxCell id="4" value="i &lt;= 10 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="350" y="160" width="100" height="60" as="geometry"/></mxCell>
+        <mxCell id="5" value="Ввод num" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="340" y="250" width="120" height="40" as="geometry"/></mxCell>
+        <mxCell id="6" value="num > 0 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="200" y="330" width="100" height="60" as="geometry"/></mxCell>
+        <mxCell id="7" value="num < 0 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="400" y="330" width="100" height="60" as="geometry"/></mxCell>
+        <mxCell id="8" value="pos++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="80" y="420" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="9" value="neg++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="280" y="420" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="10" value="zero++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="500" y="420" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="11" value="i++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="360" y="510" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="12" value="Вывод pos, neg, zero" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="320" y="600" width="160" height="40" as="geometry"/></mxCell>
+        <mxCell id="13" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="360" y="680" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="2" target="3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="3" target="4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="4" target="5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="5" target="6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="6" target="8"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="6" target="7"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="7" target="9"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="7" target="10"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="8" target="11"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="9" target="11"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="10" target="11"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="11" target="4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="4" target="12"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e14" edge="1" parent="1" source="12" target="13"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="6. Разница max-min" id="6">
+    <mxGraphModel dx="827" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="360" y="20" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="3" value="Ввод первого числа: max=num, min=num, i=2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="290" y="90" width="220" height="40" as="geometry"/></mxCell>
+        <mxCell id="4" value="i &lt;= 10 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="350" y="160" width="100" height="60" as="geometry"/></mxCell>
+        <mxCell id="5" value="Ввод num" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="340" y="250" width="120" height="40" as="geometry"/></mxCell>
+        <mxCell id="6" value="num > max ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="200" y="330" width="100" height="60" as="geometry"/></mxCell>
+        <mxCell id="7" value="num < min ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="500" y="330" width="100" height="60" as="geometry"/></mxCell>
+        <mxCell id="8" value="max = num" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="80" y="420" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="9" value="min = num" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="500" y="420" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="10" value="i++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="360" y="510" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="11" value="diff = max - min" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="340" y="600" width="120" height="40" as="geometry"/></mxCell>
+        <mxCell id="12" value="Вывод diff" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="350" y="680" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="13" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="360" y="760" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="2" target="3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="3" target="4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="4" target="5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="5" target="6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="6" target="8"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="6" target="7"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="7" target="9"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="7" target="10"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="8" target="10"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="9" target="10"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="10" target="4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="4" target="11"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="11" target="12"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e14" edge="1" parent="1" source="12" target="13"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="7. Количество равных максимуму" id="7">
+    <mxGraphModel dx="827" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="360" y="20" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="3" value="Ввод массива A[10]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="330" y="90" width="140" height="40" as="geometry"/></mxCell>
+        <mxCell id="4" value="max_val = max(A)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="330" y="160" width="140" height="40" as="geometry"/></mxCell>
+        <mxCell id="5" value="count=0, i=0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="340" y="230" width="120" height="40" as="geometry"/></mxCell>
+        <mxCell id="6" value="i < 10 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="350" y="300" width="100" height="60" as="geometry"/></mxCell>
+        <mxCell id="7" value="A[i] == max_val ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="340" y="390" width="120" height="60" as="geometry"/></mxCell>
+        <mxCell id="8" value="count++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="500" y="400" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="9" value="i++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="360" y="500" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="10" value="Вывод count" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="340" y="590" width="120" height="40" as="geometry"/></mxCell>
+        <mxCell id="11" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="360" y="670" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="2" target="3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="3" target="4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="4" target="5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="5" target="6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="6" target="7"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="7" target="8"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="7" target="9"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="8" target="9"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="9" target="6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="6" target="10"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="10" target="11"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="8. Разница сумм индексов" id="8">
+    <mxGraphModel dx="827" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="360" y="20" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="3" value="Ввод массива A[10]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="330" y="90" width="140" height="40" as="geometry"/></mxCell>
+        <mxCell id="4" value="sum_even=0, sum_odd=0, i=0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="310" y="160" width="180" height="40" as="geometry"/></mxCell>
+        <mxCell id="5" value="i < 10 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="350" y="230" width="100" height="60" as="geometry"/></mxCell>
+        <mxCell id="6" value="i % 2 == 0 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="200" y="330" width="100" height="60" as="geometry"/></mxCell>
+        <mxCell id="7" value="sum_even += A[i]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="80" y="420" width="120" height="40" as="geometry"/></mxCell>
+        <mxCell id="8" value="sum_odd += A[i]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="500" y="420" width="120" height="40" as="geometry"/></mxCell>
+        <mxCell id="9" value="i++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="360" y="510" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="10" value="diff = sum_even - sum_odd" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="320" y="600" width="160" height="40" as="geometry"/></mxCell>
+        <mxCell id="11" value="Вывод diff" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="350" y="680" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="12" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="360" y="760" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="2" target="3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="3" target="4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="4" target="5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="5" target="6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="6" target="7"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="6" target="8"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="7" target="9"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="8" target="9"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="9" target="5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="5" target="10"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="10" target="11"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="11" target="12"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="9. Подсчёт цифр в строке" id="9">
+    <mxGraphModel dx="827" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="360" y="20" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="3" value="Ввод строки text" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="330" y="90" width="140" height="40" as="geometry"/></mxCell>
+        <mxCell id="4" value="count=0, i=0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="340" y="160" width="120" height="40" as="geometry"/></mxCell>
+        <mxCell id="5" value="i < len(text) ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="340" y="230" width="120" height="60" as="geometry"/></mxCell>
+        <mxCell id="6" value="text[i] цифра?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="340" y="330" width="120" height="60" as="geometry"/></mxCell>
+        <mxCell id="7" value="count++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="500" y="340" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="8" value="i++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="360" y="440" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="9" value="Вывод count" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="340" y="530" width="120" height="40" as="geometry"/></mxCell>
+        <mxCell id="10" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="360" y="610" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="2" target="3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="3" target="4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="4" target="5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="5" target="6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="6" target="7"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="6" target="8"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="7" target="8"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="8" target="5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="5" target="9"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="9" target="10"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="10. Удалить пробелы" id="10">
+    <mxGraphModel dx="827" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="360" y="20" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="3" value="Ввод строки text" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="330" y="90" width="140" height="40" as="geometry"/></mxCell>
+        <mxCell id="4" value="result = &quot;&quot;, i=0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="330" y="160" width="140" height="40" as="geometry"/></mxCell>
+        <mxCell id="5" value="i < len(text) ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="340" y="230" width="120" height="60" as="geometry"/></mxCell>
+        <mxCell id="6" value="text[i] != ' ' ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="340" y="330" width="120" height="60" as="geometry"/></mxCell>
+        <mxCell id="7" value="result += text[i]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="500" y="340" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="8" value="i++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="360" y="440" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="9" value="Вывод result" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="340" y="530" width="120" height="40" as="geometry"/></mxCell>
+        <mxCell id="10" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="360" y="610" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="2" target="3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="3" target="4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="4" target="5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="5" target="6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="6" target="7"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="6" target="8"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="7" target="8"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="8" target="5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="5" target="9"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="9" target="10"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="11. Первое слово" id="11">
+    <mxGraphModel dx="827" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="360" y="20" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="3" value="Ввод строки text" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="330" y="90" width="140" height="40" as="geometry"/></mxCell>
+        <mxCell id="4" value="Удалить ведущие пробелы (lstrip)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="310" y="160" width="180" height="40" as="geometry"/></mxCell>
+        <mxCell id="5" value="Найти позицию первого пробела" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="310" y="230" width="180" height="40" as="geometry"/></mxCell>
+        <mxCell id="6" value="Пробел найден?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="340" y="300" width="120" height="60" as="geometry"/></mxCell>
+        <mxCell id="7" value="Вырезать от 0 до пробела" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="180" y="400" width="140" height="40" as="geometry"/></mxCell>
+        <mxCell id="8" value="Вся строка" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="480" y="400" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="9" value="Вывод слова" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="350" y="490" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="10" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="360" y="570" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="2" target="3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="3" target="4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="4" target="5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="5" target="6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="6" target="7"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="6" target="8"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="7" target="9"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="8" target="9"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="9" target="10"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="12. Запись в файл" id="12">
+    <mxGraphModel dx="827" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="360" y="20" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="3" value="Ввод строки text" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="330" y="90" width="140" height="40" as="geometry"/></mxCell>
+        <mxCell id="4" value="Открыть файл output.txt (w)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="310" y="160" width="180" height="40" as="geometry"/></mxCell>
+        <mxCell id="5" value="Записать text в файл" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="330" y="230" width="140" height="40" as="geometry"/></mxCell>
+        <mxCell id="6" value="Закрыть файл" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="340" y="300" width="120" height="40" as="geometry"/></mxCell>
+        <mxCell id="7" value="Вывод 'Успех'" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="340" y="370" width="120" height="40" as="geometry"/></mxCell>
+        <mxCell id="8" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="360" y="440" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="2" target="3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="3" target="4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="4" target="5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="5" target="6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="6" target="7"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="7" target="8"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="13. Игра Угадай число" id="13">
+    <mxGraphModel dx="827" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="360" y="20" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="3" value="Ввод N, M" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="350" y="90" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="4" value="low=N, high=M, attempts=0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="310" y="160" width="180" height="40" as="geometry"/></mxCell>
+        <mxCell id="5" value="low < high ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="340" y="230" width="120" height="60" as="geometry"/></mxCell>
+        <mxCell id="6" value="mid = (low+high)//2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="320" y="320" width="160" height="40" as="geometry"/></mxCell>
+        <mxCell id="7" value="attempts++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="340" y="390" width="120" height="40" as="geometry"/></mxCell>
+        <mxCell id="8" value="Спросить 'Число > mid?'" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="300" y="460" width="200" height="40" as="geometry"/></mxCell>
+        <mxCell id="9" value="Ответ 'да'?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="340" y="530" width="120" height="60" as="geometry"/></mxCell>
+        <mxCell id="10" value="low = mid+1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="180" y="630" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="11" value="high = mid" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="520" y="630" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="12" value="Вывести low и attempts" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="320" y="720" width="160" height="40" as="geometry"/></mxCell>
+        <mxCell id="13" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="360" y="800" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="2" target="3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="3" target="4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="4" target="5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="5" target="6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="6" target="7"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="7" target="8"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="8" target="9"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="9" target="10"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="9" target="11"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="10" target="5"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="230" y="260"/></Array></mxGeometry></mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="11" target="5"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="570" y="260"/></Array></mxGeometry></mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="5" target="12"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="12" target="13"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
